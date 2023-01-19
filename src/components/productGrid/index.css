@@ -1,0 +1,8 @@
+.boxProductGrid {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  padding: 89px;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  justify-items: center;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Merriweather:wght@300&family=Noto+Serif:wght@700&family=Source+Code+Pro:wght@300&display=swap');
+.boxFilterGrid{}
+  .boxFilterGrid--text {
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace
+  }
+  .listCategories {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+  }
+    .listCategories--item {
+      cursor: pointer;
+    }
+  .boxFilterGrid--resetButton {
+    background-color: rgba(0, 0, 0, 0.34);
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    padding: 5px;
+
+}
